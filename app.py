@@ -514,7 +514,7 @@ def page_2_python_interaction():
     st.markdown(
         '<div class="ab-label">'
         '<div class="ab-line"></div>'
-        '<span>💝 Weather Forecast for the next 7 Days</span>'
+        '<span>💝 Weather Forecast for the next 8 Days</span>'
         '<div class="ab-line ab-r"></div>'
         '</div>',
         unsafe_allow_html=True
@@ -805,6 +805,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
