@@ -582,7 +582,7 @@ def page_2_python_interaction():
     answer_q2 = st.text_input("What does this function return?", key="q2_input", placeholder="type the output…")
 
     if answer_q2 and not st.session_state.q2_done:
-        if "noel" in answer_q2.lower() :
+        if "noeh" in answer_q2.lower() :
             st.session_state.q2_done = True
         else:
             st.error("Whatever happens its _____ fault 😉")
@@ -805,6 +805,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
