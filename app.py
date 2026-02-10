@@ -26,7 +26,7 @@ def page_1_photo_booth():
     import base64
 
     # 🔁 Path to your background image
-    bg_image_path = "images\final.png"
+    bg_image_path = "images/final.png"
 
     # Convert image to base64
     with open(bg_image_path, "rb") as img_file:
@@ -92,7 +92,7 @@ def page_2_python_interaction():
 
     import base64
 
-    bg_image_path = "images\Background2.jpg"
+    bg_image_path = "images/Background2.jpg"
 
     with open(bg_image_path, "rb") as img_file:
         encoded_bg = base64.b64encode(img_file.read()).decode()
@@ -690,7 +690,7 @@ def page_3_final_question():
     import random
     import base64
 
-    bg_image_path = r"images\final3.jpg"
+    bg_image_path = r"images/final3.jpg"
 
     with open(bg_image_path, "rb") as img_file:
         encoded = base64.b64encode(img_file.read()).decode()
@@ -804,4 +804,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
