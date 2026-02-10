@@ -44,7 +44,7 @@ def page_1_photo_booth():
         /* Fullscreen background image */
         .stApp {{
             background-image: url("data:image/jpeg;base64,{encoded}");
-            background-size: 95%;
+            background-size: 88%;
             background-position: center;
             background-repeat: no-repeat;
             height: 100vh;
@@ -804,6 +804,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
