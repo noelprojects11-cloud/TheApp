@@ -662,7 +662,7 @@ def page_2_python_interaction():
             '<h3>🐣 Secret Easter Egg Unlocked!</h3>'
             '<p>You typed <b>rawr</b>… You have unlocked the hidden easter egg of this message <br>'
             'I rawr you Smmmm tooo Sanikaa.<br><br>'
-            '🐉<em> This secret coupon is yours : One rawr = instant forgiveness </em>🐉</p>'
+            '🐉<em> This secret coupon is yours : One rawr = Massage your feet/Shoulders <3 </em>🐉</p>'
             '</div>',
             unsafe_allow_html=True
         )
@@ -805,6 +805,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
