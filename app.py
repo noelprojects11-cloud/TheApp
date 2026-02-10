@@ -443,12 +443,13 @@ def page_2_python_interaction():
     # 7 Days of Valentine
     SEVEN_DAYS = [
         {"day": "Day 1", "icon": "🌹", "title": "Rose Day", "message": "Forecast: 90% precipitation chances of light rose showers to be seen anywhere Sanika goes… <br>→ A rose for my one and only gulab jaise pretty girl but you wont believe if i tell you this , will you ?"},
-        {"day": "Day 2", "icon": "🍫", "title": "Propose Day", "message": "Forecast: High liklihood of the promises made here to last forever, Grab on to your umbrellas.... <br>I propose that..... In all of our dates I do the dishes while you sit on the counter and yap to me. "},
+        {"day": "Day 2", "icon": "🧎🏻", "title": "Propose Day", "message": "Forecast: High liklihood of the promises made here to last forever, Grab on to your umbrellas.... <br>I propose that..... In all of our dates I do the dishes while you sit on the counter and yap to me. "},
         {"day": "Day 3", "icon": "🍫", "title": "Chocolate Day", "message": "Forecast: Heavy chocolate Cumulonimbus forming with a light drizzle of strawberries....<br>Ill get us all the types of chocolates there is until we find the best ones to make the best strawberry chocolates out there. "},
         {"day": "Day 4", "icon": "🧸", "title": "Teddy Day", "message": "Forecast: Very intense stormy weather with dark clouds(Perfect weather for fight with epic battle music in the background)…<br> On this day I'll need to fight all the teddies in my collection ancient Roman Colosseum style then finally fight yer pandu and whoever wins gets to be your cuddle partner."},
         {"day": "Day 5", "icon": "💐", "title": "Promise Day", "message": "Forecast: Initially sunshine with a chance of surprise cloudy annoyance later…<br>I promise to annoy you on your good days and make you laugh harder than ever on the bad ones (Annoy you later the same day ) "},
-        {"day": "Day 6", "icon": "🤗", "title": "Hug Day", "message": "Forecast: Extreme Hot temperatures warning — Adviced to switch your AC to 16 degrees … You get a Lifetime subscription to the most elite hugs ( The only thing you would need to worry about is why you got my perfume all over you )"},
-        {"day": "Day 7", "icon": "💝", "title": "Valentine's Day", "message": "Forecast: 404 Error...... Will fix it soon , Maybe try solving the below problems to fix the Weather forecast system ..... Stay tuned we have Sanika our expert Python mechanic here "},
+        {"day": "Day 6", "icon": "🫂", "title": "Hug Day", "message": "Forecast: Extreme Hot temperatures warning — Adviced to switch your AC to 16 degrees … You get a Lifetime subscription to the most elite hugs ( The only thing you would need to worry about is why you got my perfume all over you )"},
+        {"day": "Day 7", "icon": "😘", "title": "Kiss Day", "message": "Forecast: A powerful storm of kisses is approaching your location. Expect sudden blushing, Wet face, and bite marks on yer face.. Authorities recommend accepting all kisses immediately 💋🚨 "},
+        {"day": "Day 8, "icon": "💝", "title": "Valentine's Day", "message": "Forecast: 404 Error...... Will fix it soon , Maybe try solving the below problems to fix the Weather forecast system ..... Stay tuned we have Sanika our expert Python mechanic here "},
     ]
 
     GIFTS = [
@@ -804,6 +805,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
