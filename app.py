@@ -437,7 +437,7 @@ def page_2_python_interaction():
         {"icon": "💬", "label": "First Date", "date": "29th Aug", "x": "35%", "y": "15%"},
         {"icon": "😂", "label": "Day I fell(For you)", "date": "28th Oct", "x": "55%", "y": "25%"},
         {"icon": "💕", "label": "Ask Out ", "date": "18th Jan", "x": "75%", "y": "18%"},
-        {"icon": "🌸", "label": "Today", "date": "5th Feb", "x": "90%", "y": "22%"},
+        {"icon": "🌸", "label": "Valentine ask out <3", "date": "5th Feb", "x": "90%", "y": "22%"},
     ]
 
     # 7 Days of Valentine
@@ -804,6 +804,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
