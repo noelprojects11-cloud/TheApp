@@ -449,7 +449,7 @@ def page_2_python_interaction():
         {"day": "Day 5", "icon": "💐", "title": "Promise Day", "message": "Forecast: Initially sunshine with a chance of surprise cloudy annoyance later…<br>I promise to annoy you on your good days and make you laugh harder than ever on the bad ones (Annoy you later the same day ) "},
         {"day": "Day 6", "icon": "🫂", "title": "Hug Day", "message": "Forecast: Extreme Hot temperatures warning — Adviced to switch your AC to 16 degrees … You get a Lifetime subscription to the most elite hugs ( The only thing you would need to worry about is why you got my perfume all over you )"},
         {"day": "Day 7", "icon": "😘", "title": "Kiss Day", "message": "Forecast: A powerful storm of kisses is approaching your location. Expect sudden blushing, Wet face, and bite marks on yer face.. Authorities recommend accepting all kisses immediately 💋🚨 "},
-        {"day": "Day 8, "icon": "💝", "title": "Valentine's Day", "message": "Forecast: 404 Error...... Will fix it soon , Maybe try solving the below problems to fix the Weather forecast system ..... Stay tuned we have Sanika our expert Python mechanic here "},
+        {"day": "Day 8", "icon": "💝", "title": "Valentine's Day", "message": "Forecast: 404 Error...... Will fix it soon , Maybe try solving the below problems to fix the Weather forecast system ..... Stay tuned we have Sanika our expert Python mechanic here "},
     ]
 
     GIFTS = [
@@ -805,6 +805,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
