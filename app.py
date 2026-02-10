@@ -26,7 +26,7 @@ def page_1_photo_booth():
     import base64
 
     # 🔁 Path to your background image
-    bg_image_path = r"D:\Noels Stuff\V-Streamlit\images\final.png"
+    bg_image_path = ".\images\final.png"
 
     # Convert image to base64
     with open(bg_image_path, "rb") as img_file:
@@ -659,9 +659,9 @@ def page_2_python_interaction():
         st.markdown(
             '<div class="ab-egg">'
             '<h3>🐣 Secret Easter Egg Unlocked!</h3>'
-            '<p>You typed <b>rawr</b>… You have unlocked the hidden easter egg of this message<br>'
-            'I love my little dino more than anything in this world.<br><br>'
-            '🐉 <em>This coupon is yours forever: One rawr = instant forgiveness</em> 🐉</p>'
+            '<p>You typed <b>rawr</b>… You have unlocked the hidden easter egg of this message <br>'
+            'I rawr you Smmmm tooo Sanikaa.<br><br>'
+            '🐉<em> This secret coupon is yours : One rawr = instant forgiveness </em>🐉</p>'
             '</div>',
             unsafe_allow_html=True
         )
@@ -735,7 +735,7 @@ def page_3_final_question():
     if st.session_state.said_yes:
         st.balloons()
         st.markdown("<h1 style='text-align:center;'>She Said YES 💖</h1>", unsafe_allow_html=True)
-        st.markdown("<p style='text-align:center;'>LESGOOOOOOOOOOOO FINALLLLY You Mah Valentine ab, Cant say No ab 😌 <br> Get Ready for the Best Valentine EVER !!!!!!</p", unsafe_allow_html=True)
+        st.markdown("<p style='text-align:center;'>LESGOOOOOOOOOOOO FINALLLLY You Mah Valentine ab, Cant say No ab 😌 <br> Get Ready for the Best Valentines day EVER !!!!!!</p", unsafe_allow_html=True)
 
         if st.button("Start Over"):
             st.session_state.page = 1
@@ -802,4 +802,5 @@ def main():
 
 # Run the app
 if __name__ == "__main__":
+
     main()
